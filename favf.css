@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#000000 ;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    color: white;
+    background-image: url(img/fdb.png);
+    background-size: cover;
+}
+.card .carousel-caption{
+    max-width: 500px;
+  height: 50px;
+  padding: 35px;
+  margin-bottom: 5px;
+  display: flex;
+  margin-left: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, .45);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(5px);
+}
+.carousel-item .card .carousel-caption h5{
+    position: relative;
+    bottom: 10px;
+    
+}
+.container-fluid .nav-item{
+
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .45);
+    border-radius: 20px;
+    border: 1px solid rgba(42, 14, 95, 0.25);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+.container-fluid .nav-item :hover{
+    color: rgb(9, 115, 253);
+    
+}
+
+.container .box{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0,20px;
+    background: rgba(255,255,255,0.1);
+    z-index: 10;
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+}
